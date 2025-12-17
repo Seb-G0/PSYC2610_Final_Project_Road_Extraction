@@ -1,7 +1,3 @@
-# patch_vae_likelihood.jl
-# Patch-based VAE likelihood computation for MCMC
-# Uses PythonCall (NOT PyCall) - follows same pattern as vae_likelihood.jl
-
 using PythonCall
 using Images
 using ImageFiltering
