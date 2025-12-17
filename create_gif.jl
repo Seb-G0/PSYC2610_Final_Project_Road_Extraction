@@ -1,6 +1,3 @@
-# create_gif.jl - Create GIF from saved frames
-# Updated to use PythonCall to prevent kernel crashes
-
 using FileIO
 using Images
 using PythonCall
