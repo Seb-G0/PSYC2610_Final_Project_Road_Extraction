@@ -1,6 +1,3 @@
-# appearance.jl - Appearance-based likelihood
-# V36: "The Optimist" - Positive rewards for semi-valid pixels to drive expansion.
-
 using Gen
 using Statistics
 using StaticArrays
