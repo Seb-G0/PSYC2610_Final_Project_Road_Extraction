@@ -1,8 +1,3 @@
-# adaptive_computation.jl - FIXED
-# 1. Defines 'get_connected_components' locally to fix UndefVarError.
-# 2. Updates loop to handle (graph, score, acc_count) return values.
-# 3. Computes Uncertainty and Gap maps for adaptive sampling.
-
 using Gen
 using Images
 using Statistics
