@@ -1,7 +1,3 @@
-# priors.jl - V58: "Minimalist"
-# Triangle Penalty: 10.0 (Negligible).
-# Angle Constraints: Weak.
-
 using Gen, LinearAlgebra, Statistics
 if !isdefined(Main, :RoadGraph); include("graph_types.jl"); end
 println("✅ priors.jl (V58 - Minimal) LOADED!")
