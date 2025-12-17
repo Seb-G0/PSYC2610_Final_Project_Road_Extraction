@@ -1,6 +1,3 @@
-# proposals.jl - V58: "Force Connect"
-# Snap Tip -> Any Node. Condition: No Crossing. NO ANGLE CHECK.
-
 using Gen, Random, Statistics, LinearAlgebra, StaticArrays
 if !isdefined(Main, :RoadGraph); include("graph_types.jl"); end
 println("✅ proposals.jl (V58 - Force Connect) LOADED!")
