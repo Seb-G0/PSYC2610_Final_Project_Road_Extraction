@@ -1,6 +1,3 @@
-# graph_types.jl - Data structures for road graphs
-# V34: Updated AppearanceModel field for strict color matching
-
 using StaticArrays
 
 # Node with position and uncertainty
