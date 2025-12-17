@@ -1,7 +1,3 @@
-# model.jl - V58: "UNCHAINED"
-# Node Penalty = 0.0. Edge Penalty = 0.0.
-# The model has ZERO friction. It only cares about the Mask Reward.
-
 using Gen
 using Statistics
 using LinearAlgebra
