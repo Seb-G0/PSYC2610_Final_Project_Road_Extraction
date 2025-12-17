@@ -1,5 +1,3 @@
-# inference.jl - V57
-# Uses Safe Init.
 using Gen, Printf, Images, LinearAlgebra, StaticArrays
 
 if !isdefined(Main, :RoadGraph); include("graph_types.jl"); end
